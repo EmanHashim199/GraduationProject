@@ -1,6 +1,6 @@
 <template>
 
-  <Container class="bg-gray-100">
+  <Container class="bg-gray-100 !mb-10">
     <div class="max-w-4xl !mx-auto text-center">
       <!-- Learning Outcome -->
       <div class="!mb-12">
