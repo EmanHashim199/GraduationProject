@@ -28,7 +28,7 @@
               <RouterLink to="/products" class="hover:text-[#6B3A1E]">products</RouterLink>
             </li>
             <li>
-              <RouterLink to="/about" class="hover:text-[#6B3A1E]">about us</RouterLink>
+              <RouterLink to="/about" class="hover:text-[#6B3A1E]">aboutUs</RouterLink>
             </li>
             <li>
               <RouterLink to="/faq" class="hover:text-[#6B3A1E]">FAQ</RouterLink>

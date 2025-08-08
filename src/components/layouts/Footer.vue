@@ -4,7 +4,7 @@
 
     <!-- Footer Content -->
     <div class="bg-[linear-gradient(281.91deg,_#0F0E0E_20.11%,_#381D11_67.04%,_#6A4434_98.32%)] relative">
-      <section class="   absolute -top-[20rem] right-[50%] translate-x-[50%] w-[90%] lg:w-[80%]">
+      <section class="   absolute top-[-25rem] lg:-top-[20rem] right-[50%] translate-x-[50%] w-[90%] lg:w-[80%]">
         <!-- Icons row on white background -->
         <div class=" relative">
           <div
@@ -30,11 +30,11 @@
           <span
             class="absolute top-0 right-0 w-[60px] lg:w-[80px] h-[150px] lg:h-[50px] bg-[#56372A] -translate-y-full"></span>
           <div class="container mx-auto px-4 py-10">
-            <div class="text-white lg:w-[94%] !mx-auto text-center flex flex-col items-start  ">
-              <h2 class="text-xl pt-7 pb-10 lg:text-[3rem] px-0 font-extrabold tracking-wider uppercase mb-6">
+            <div class="text-white lg:w-[94%] !mx-auto text-center flex flex-col items-center lg:items-start  ">
+              <h2 class="text-lg lg:pt-7 pb-3 lg:pb-10 lg:text-[3rem] px-0 font-extrabold tracking-wider uppercase mb-6">
                 DRESS YOUR BEST, LEAVE OUT THE REST!
               </h2>
-              <button class="bg-[#F3D04E] !me-auto text-black font-medium py-3 px-6  hover:opacity-90 transition">
+              <button class="lg:bg-[#F3D04E] bg-[#f3cf4e1a] lg:!me-auto lg:rounded-2xl  max-lg:text-white text-black font-medium py-3 px-6  hover:opacity-90 transition">
                 CONTACT US
               </button>
             </div>
@@ -43,7 +43,7 @@
       </section>
 
       <Container>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-[20rem]">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-[6rem] lg:pt-[20rem]">
           <!-- INFORMATION Column -->
           <div>
             <h3 class="text-white text-2xl font-bold uppercase !mb-6">INFORMATION</h3>
