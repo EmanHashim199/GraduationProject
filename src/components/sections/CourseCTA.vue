@@ -14,12 +14,12 @@
 
       <!-- Call to Action -->
       <div class="bg-white p-10 rounded-lg shadow-lg max-w-2xl !mx-auto">
-        <p class="text-2xl text-gray-700 !mb-8">
+        <p class="lg:text-2xl text-xl text-gray-700 !mb-8">
           Join our course for just
           <span class="text-yellow-500 font-bold">2000 <span class="text-gray-700">EGP!</span></span>
         </p>
         <RouterLink to="/registration"
-          class="inline-block bg-[#5D3500] text-white font-bold py-4 px-10 rounded-lg hover:bg-[#4A2A00] transition-colors text-lg uppercase">
+          class="inline-block bg-[#5D3500] lg:!text-lg  text-[0.8rem] text-white font-bold py-4 px-10 rounded-lg hover:bg-[#4A2A00] transition-colors  uppercase">
           start enrolling now
         </RouterLink>
       </div>
