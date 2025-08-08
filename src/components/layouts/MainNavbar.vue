@@ -81,7 +81,7 @@
     <!-- Promotional banner -->
     <div class="bg-[#6B3A1E] text-white text-center">
       <div class="container !mx-auto px-4 flex justify-center">
-        <span class="text-[14px] font-bold  tracking-wide uppercase">2-3 ITEMS: -10%, 4+ ITEMS: -20% USE CODE
+        <span class="lg:text-[14px] text-xs font-bold  tracking-wide uppercase">2-3 ITEMS: -10%, 4+ ITEMS: -20% USE CODE
           :MULTIBUY</span>
       </div>
     </div>
