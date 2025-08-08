@@ -1,11 +1,14 @@
 <template>
   <header>
     <!-- Thin top brown stripe -->
-    <div class="w-full h-1 bg-[#6B3A1E]"></div>
+    <div class="w-full flex justify-center items-center  bg-[#6B3A1E]">
+      <IconHeader class="lg:block hidden" />
+      <IconMobileHeader class="block lg:hidden"/>
+    </div>
 
     <!-- Main navigation bar -->
     <nav class="bg-[#F3E6B4]">
-      <div class="container mx-auto px-4 py-4 grid grid-cols-3 items-center">
+      <div class="container !mx-auto px-4 py-4 grid grid-cols-3 items-center">
         <!-- Left: Logo -->
         <div class="flex items-center">
           <RouterLink to="/" class="flex-shrink-0">
@@ -17,7 +20,7 @@
 
         <!-- Center: Desktop Links -->
         <div class="hidden md:flex justify-center">
-          <ul class="flex items-center gap-10 text-gray-900 font-semibold">
+          <ul class="flex items-center justify-center gap-10 text-gray-900 font-semibold">
             <li>
               <RouterLink to="/" class="hover:text-[#6B3A1E]">Home</RouterLink>
             </li>
@@ -73,12 +76,12 @@
     </nav>
 
     <!-- Thin separator bar under nav -->
-    <div class="w-full h-3 bg-[#6B3A1E]"></div>
+    <div class="w-full bg-[#6B3A1E]"></div>
 
     <!-- Promotional banner -->
     <div class="bg-[#6B3A1E] text-white text-center">
-      <div class="container mx-auto px-4">
-        <span class="text-[12px] font-bold tracking-wide uppercase">2-3 ITEMS: -10%, 4+ ITEMS: -20% USE CODE
+      <div class="container !mx-auto px-4 flex justify-center">
+        <span class="text-[14px] font-bold  tracking-wide uppercase">2-3 ITEMS: -10%, 4+ ITEMS: -20% USE CODE
           :MULTIBUY</span>
       </div>
     </div>
@@ -91,7 +94,8 @@ import { RouterLink } from 'vue-router'
 import IconUser from '@/components/icons/User.vue'
 import IconCart from "@/components/icons/Cart.vue"
 import IconMenu from "@/components/icons/Menu.vue"
-
+import IconHeader from "@/components/icons/Header.vue"
+import IconMobileHeader from "@/components/icons/MobileHeader.vue"
 // toggle state for mobile menu
 const isOpen = ref(false)
 
