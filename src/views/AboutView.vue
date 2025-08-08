@@ -10,7 +10,6 @@ import Hero from '@/components/ui/about/Hero.vue';
 import WhatWeDo from '@/components/ui/about/WhatWeDo.vue'
 import WhyChooseUs from '@/components/ui/about/WhyChooseUs.vue'
 
-
 </script>
 <style>
   .about {

@@ -1,7 +1,7 @@
 <template>
   <Container>
     <div class="text-center mb-12">
-      <h2 class="text-[4rem] font-semibold pb-10 text-black uppercase">WHAT WE DO</h2>
+      <h2 class="lg:text-[4rem] text-4xl font-semibold pb-10 text-black uppercase">WHAT WE DO</h2>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
